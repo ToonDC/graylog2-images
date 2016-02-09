@@ -36,5 +36,7 @@ EXPOSE 4001
 # syslog
 EXPOSE 514
 EXPOSE 514/udp
+# elasticsearch
+EXPOSE 9200
 
 CMD ["/opt/graylog/embedded/share/docker/my_init"]
